@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Transitions and Animations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Web Page</h1>
+
+        <!-- Part 1: CSS Transitions -->
+        <div class="transition-section">
+            <h2>CSS Transitions</h2>
+            <button id="hover-button">Hover Me</button>
+            <div id="transition-box" class="transition-box"></div>
+        </div>
+
+        <!-- Part 2: CSS Animations -->
+        <div class="animation-section">
+            <h2>CSS Animations</h2>
+            <div id="spinner" class="spinner"></div>
+            <div id="animated-banner" class="animated-banner">
+                Welcome to Our Interactive Page!
+            </div>
+        </div>
+
+        <!-- Part 3: JavaScript Interactions -->
+        <div class="js-section">
+            <h2>JavaScript Interactions</h2>
+            <div class="calculator">
+                <input type="number" id="length" placeholder="Rectangle Length">
+                <input type="number" id="width" placeholder="Rectangle Width">
+                <button id="calculate-area">Calculate Area</button>
+                <p id="area-result"></p>
+            </div>
+
+            <div class="modal-section">
+                <button id="open-modal-btn">Open Modal</button>
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span id="close-modal" class="close">&times;</span>
+                        <h3>Modal Example</h3>
+                        <p>This is a dynamically animated modal!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
